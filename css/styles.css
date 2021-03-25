@@ -1,0 +1,276 @@
+/*styles for my regitser, login and index.php pages */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #eff0e5;
+}
+
+header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    background:#c9a5be;
+    padding: 10px 12%;
+    height: 120px;
+    margin-bottom: 30px;
+
+}
+
+#logo {
+    width:150px;
+    height: auto;
+}
+
+nav {
+    height:50px;
+    line-height: 50px;
+
+}
+
+nav ul {
+    float:left;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: 20px;
+}
+
+ nav li a {
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+
+nav li a:hover {
+    color: lightgoldenrodyellow;
+}
+
+.active {
+    color: gold;
+    font-weight: bold;
+}
+
+/* ##### footer styles ##### */
+footer {
+    border-top: 1px dotted #666;
+    height: 50px;
+    line-height: 50px;
+    clear: both;
+}
+
+ footer ul {
+    float:right;
+
+}
+
+footer li {
+    float:left;
+    margin-left: 30px;
+    list-style-type: none;
+}
+
+.inner-footer {
+    width:940px;
+    margin:0 auto 30px auto;
+   
+}
+/* ###### end footer ##### */
+
+/* ##### LOGIN.PHP and register.php page ###### */
+.register_login_form {
+    max-width: 500px;
+    display: block;
+    margin: 10px auto 10px auto;
+    border-color:navajowhite;
+    background-color:cornsilk;
+
+}
+
+label {
+    display: block;
+}
+
+input[type=text],
+input[type=email],
+input[type=password] {
+    margin-bottom: 10px;
+    width: 100%;
+    height: 30px;
+}
+
+#wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+main {
+    width: 580px;
+    float:left;
+}
+
+.btn {
+     display:inline-block;
+     padding:3px 5px;
+     border:0.1em solid lightseagreen;
+     margin-left: 4px;
+     border-radius:0.012px;
+     box-sizing: border-box;
+     text-decoration:none;
+     font-family:'Roboto',sans-serif;
+     font-size: 17px;
+     font-weight:300;
+     color:whitesmoke;
+     text-align:center;
+     background-color:dodgerblue;
+     transition: all 0.2s;
+}
+
+.btn_reset {
+     display:inline-block;
+     padding:3px 5px;
+     border:0.1em solid lightseagreen;
+     margin-left: 1px;
+     border-radius:0.008px;
+     box-sizing: border-box;
+     text-decoration:none;
+     font-family:'Roboto',sans-serif;
+     font-size: 17px;
+     font-weight:300;
+     color:whitesmoke;
+     text-align:center;
+     background-color:limegreen;
+     transition: all 0.2s;
+}
+
+
+aside {
+    width: 340px;
+    float:right;
+}
+
+footer{
+    clear: both;
+}
+
+.welcome_logout {
+    position: absolute;
+    top: 35px;
+    right: 10px;
+    border: 1px solid red;
+    padding: 10px;
+}
+
+.success {
+    position: absolute;
+    top: 35px;
+    left: 10px;
+    border: 1px solid red;
+    padding: 10px;
+}
+
+.center {
+    text-align: center;
+}
+
+.bottom {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.error {
+    padding: 4px;
+    color: red;
+    text-align: center;
+    font-style: italic;
+    font-size: 1em;
+    margin-bottom: 8px ;
+}
+/*### end login.php ### */
+
+/* #### form.php, contact.php CSS  ####*/ 
+main section h1 {
+    margin-left: 100px;
+}
+
+form.form-style {
+    max-width: 450px;
+    margin: 15px auto 30px 50px;
+    align-content: center;
+}
+
+fieldset {
+    padding: 10px;
+}
+
+fieldset label {
+    font-size: 20px;
+    display: block;
+    margin-top:10px;
+}
+
+
+fieldset ul li {
+    list-style-type: none;
+}
+
+fieldset span {
+    display: block;
+    font-style: italic;
+    color: darkred;
+}
+
+fieldset input[type=submit] {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding:3px 8px;
+}
+fieldset p a {
+    margin-left: 5px;
+}
+/* ### end form.php, contact.php ### */
+
+/* ####### STYLES FOR DAILY.PHP CONTENT ###### */
+
+/* daily.php COLOR change */
+    body.lightsalmon {
+        background: lightsalmon;
+    }
+
+    body.coral {
+        background: coral;
+    }
+
+    body.powderblue {
+        background: powderblue;
+    }
+
+    body.papayawhip {
+        background: papayawhip;
+    }
+
+    body.sandybrown {
+        background: sandybrown;
+    }
+
+    body.chocolate {
+        background: chocolate;
+    }
+
+    body.mistyrose {
+        background: mistyrose;
+    }
+    
+    .image-tree {
+        width: 500px;
+        height: auto;
+        margin-top: 30px;
+        margin-bottom: 40px;
+        
+    }
+/* END daily COLOR */
