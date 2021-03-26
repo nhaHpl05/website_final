@@ -27,6 +27,4 @@
             </div>
         <?php endif ;?>
     </header>
-
 <div id="wrapper">
-    

@@ -32,7 +32,7 @@ define ('THIS_PAGE', basename($_SERVER['PHP_SELF']));
 $nav['index.php']= 'Home';
 $nav['about.php']= 'About';
 $nav['daily.php']= 'Daily';
-$nav['product-list.php']= 'Products';
+$nav['fruits_list.php']= 'Fruits';
 $nav['contact.php']= 'Contact';
 
 switch(THIS_PAGE) {
@@ -55,10 +55,10 @@ switch(THIS_PAGE) {
         $footer = 'daily';
                 break;
         
-    case 'product-list.php':
-        $title = 'Product page of our Fianl Project';
-        $body = 'product-list';
-        $footer = 'product-list';
+    case 'fruits_list.php':
+        $title = 'Fruits list page of our Fianl Project';
+        $body = 'fruits_list';
+        $footer = 'fruits_list';
                 break;
         
     case 'contact.php':
@@ -81,6 +81,20 @@ switch(THIS_PAGE) {
                 break;
     // end login.php and register.php
         
+    //other pages
+    case 'fruit-view.php':
+        $title = 'Fruit Page';
+        $body = 'fruit-view';
+        $footer = 'fruit-view';
+                break;
+    
+    case 'thx.php':
+        $title = 'Thank You\'s page ';
+        $body = 'thx';
+        $footer = 'thx';
+                break;
+    // end other pages
+    
     default:
         $title = '';
 }
@@ -148,9 +162,9 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
         $colors = ($_POST['colors']);
     }
     
-    if ($_POST['flower'] == 'NULL') {
-        $flowerErr = 'You could pick one flower option!';
-    }
+  //  if ($_POST['flower'] == 'NULL') {
+  //      $flowerErr = 'You could pick one flower option!';
+ //   }
     
     if
         (empty($_POST['agree'])) {

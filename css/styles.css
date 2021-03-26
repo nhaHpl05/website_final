@@ -105,7 +105,7 @@ input[type=password] {
 }
 
 #wrapper {
-    width: 1200px;
+    width: 1400px;
     margin: 0 auto;
     margin-bottom: 10px;
 }
@@ -150,7 +150,8 @@ main {
 
 
 aside {
-    width: 340px;
+    width: 420px;
+    margin-right: 100px;
     float:right;
 }
 
@@ -193,6 +194,37 @@ footer{
 }
 /*### end login.php ### */
 
+/*###### index.php page #######*/
+#wrapper h1 {
+    text-align: center;
+    color:dodgerblue;
+}
+#index_image {
+    width: 950px;
+    height: auto;
+    margin: 20px auto 20px 250px;
+}
+/* ###### end index.php style ###### */
+
+/* ###### about.php style ###### */
+#about_main_style {
+    width: 800px;
+    padding: 20px;
+    margin-left: 250px;
+}
+
+#about_main_style h2 {
+    padding: 20px;
+    text-align: center;
+    color: darkolivegreen;
+}
+
+#about_image{
+    max-width: 800px;
+    height: autoauto
+}
+/* ###### end about.php style ###### */
+
 /* #### form.php, contact.php CSS  ####*/ 
 main section h1 {
     margin-left: 100px;
@@ -200,7 +232,7 @@ main section h1 {
 
 form.form-style {
     max-width: 450px;
-    margin: 15px auto 30px 50px;
+    margin: 15px auto 30px 170px;
     align-content: center;
 }
 
@@ -232,6 +264,9 @@ fieldset input[type=submit] {
 }
 fieldset p a {
     margin-left: 5px;
+}
+#thanks_page {
+    text-align: center;
 }
 /* ### end form.php, contact.php ### */
 
@@ -274,3 +309,95 @@ fieldset p a {
         
     }
 /* END daily COLOR */
+
+#our_main_style {
+    width: 650px;
+    margin-left: 100px;
+    padding: 10px;
+}
+
+#our_main_style {
+    font-size: 20px;
+}
+
+#our_main_style ul li {
+    list-style-type: none;
+    padding: 5px;
+}
+
+#our_main_style h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#our_main_style h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+#our_main_style p iframe {
+    padding: 10px;
+}
+
+#our_main_style h3 {
+    margin-top: 10px;
+    padding: 10px
+}
+
+.aside_div_box {
+    width: 100%;
+    height: auto;
+    margin: 20px auto;
+    padding: 10px;
+    display: block;
+    border:solid;
+    border-color: lightcyan;
+    font-size: 20px;
+    background-color:lightcyan;
+
+}
+
+.aside_div_box h3 {
+    text-align: center;
+    color:darkolivegreen;
+    margin: 10px auto 10px auto;
+}
+
+#smaller_image{
+    margin-left: 2px;
+    width: 390px;
+}
+
+/* ##### End daily.php styles ##### */
+#fruits_list_main {
+    max-width: 650px;
+    margin-left: 360px;
+}
+
+#fruits_list_main h1 {
+    text-align: center;
+}
+
+#fruits_list_main ul {
+    padding: 20px;
+}
+
+#fruits_list_main ul li {
+    list-style-type: none;
+    font-size: 20px;
+    
+}
+/* ##### fruits-list.php styles ##### */
+
+
+/* ##### End fruits-list.php styles ##### */
+
+/* ##### fruit-view.php ##### */
+#our_main_style p a {
+    margin-top: 10px;
+    margin-left: 220px;
+}
+
+.aside_div_box p {
+    margin-top: 5px;
+}

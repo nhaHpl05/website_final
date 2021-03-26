@@ -17,124 +17,100 @@ else {
 switch($today) {
         
         case 'Monday';
-        $tree = 'Monday is Aloe Vera day';
-        $pic = 'aloe-vera.jpg';
-        $alt = "Aloe Vera Plant";
+        $title = 'We\'re Picking Soil for Our Tree on Monday';
+        $pic = 'soil.jpg';
+        $alt = "Good Soil";
         
-        $content = 'Aloe Vera plant usually grows to a height of about 12 to 16 inches. It has thick and fleshy leaves with sharp edges but does not have a stem. Long leaves are mainly in triangular fashion inside which contains the aloe vera gel. It grows in sandy soil in a sunny location though need to be watered on a regular basis. Aloe Vera is useful to hair to remove dandruff and the itchy effect. Though they are essential in cosmetic products, they are equally important to the food industry.<br><br>
-        <b>Source:</b><br>
-        <a href="https://stylesatlife.com/articles/types-of-trees/">Styles at life.com </a>';
+        $content = 'Fruit trees grow best in well-drained soil with a sandy, loamy texture. They need at least 3 feet of topsoil to support their deep root systems. Heavy clay soils, overly rocky soils or soils lacking in nutrients can stunt tree growth. Also most fruit tree want a soil pH between 6.0 and 6.5. You can test your soil pH online or at gardening supply stores. 
+        ';
         
         $body = 'lightsalmon';
             break;
         
         case 'Tuesday';
-        $tree = 'Tuesday is Tulsi day';
-        $pic = 'tulsi.png';
-        $alt = "Tulsi Plant";
-        $content = 'Tulsi plant is considered as a holy and religious plant in India. Height reaches about 75 cm to 90 cm. The leaves are round oval shaped which contain essential oils. It has high medicinal value. It provides relief in fever, cold and cough, effective against insomnia, indigestion, etc.<br><br>
-        <b>Source:</b><br>
-        <a href="https://stylesatlife.com/articles/types-of-trees/">Styles at life.com </a>';
+        $title = 'It\'s Tuesday, and We are Selecting Plant';
+        $pic = 'select.jpg';
+        $alt = "Plant Selecting";
+        $content = 'We want to select a blueberries that have some natural resistance to disease.Another important thing is to get a plant that won\'t get damaged over the winter.Also consider bloom time. If your area is prone to late frosts, early bloomers in spring will never truly thrive or reliably set fruit.';
         $body = 'coral';
             break;
         
         case 'Wednesday';
-        $tree = 'Wednesday is Oak day';
-        $pic = 'oak.jpg';
-        $alt = "Oak Tree";
+        $title = 'We\'re Picking up our Blueberry Tree at the Store';
+        $pic = 'plant.jpg';
+        $alt = "Blueberry Tree";
         
-        $content = 'Oaktree falls under the group of flowering plants. There are different types of oak trees present in nature. It has simply spirally arranged leaves. Some leaves have lobate margins and others have serrated leaves or have smooth margins. The bark of the white oak tree is usually dried and used for medical purposes. Manuscript inks were previously made from oak galls for many centuries. The bark of cork oak is used as a bottle stopper. The wood of this tree is used as valuable timber.<br><br>
-        <b>Source:</b><br>
-        <a href="https://stylesatlife.com/articles/types-of-trees/">Styles at life.com </a>';
+        $content = 'We picked up a Continer-grown blueberry tree. It\'s available later in the spring, so the trees may not be able to establish tehmselves before the hottest part of summer. They are often rootbound within the pot, it\'s difficult to seperate for planting. But container grown fruit trees perform better for fall planting.';
         
         $body = 'powderblue';
             break;
         
         case 'Thursday';
-        $tree = 'Thursday is Amla day';
-        $pic = 'amla.jpg';
-        $alt = "Amla Plant";
+        $title = 'We Choosing a Site to Plant our Blueberry Tree';
+        $pic = 'hole.jpg';
+        $alt = "Planting site";
         
-        $content = 'Amlaki’ is the household name very commonly used for amla. This type of tree is a medium deciduous plant of height about 8-18 meters. Spreading branches and crooked trunk are the prominent features of this plant. Feathery and linear-oblong shaped leaves mostly smell like lemon. In extreme heat, it wraps and splits. Amla is highly rich in Vitamin C, thus used in common cold. This improves the immunity of our body and is useful for healthy hair. Other than that, amla is used in shampoo and many food items like jellies, pickle, etc.<br><br>
-        <b>Source:</b><br>
-        <a href="https://stylesatlife.com/articles/types-of-trees/">Styles at life.com </a>';
+        $content = 'We are choosing a site where there would be a minimum of 8 hours of sunlight daily for fruit trees to produce fruit, and it can also protect from strong winds. We need to dig a hole before planting, it\'s very important to dig the hole to fit the roots, don\'t force the roots to fit the hole!';
         
         $body = 'papayawhip';
             break;
         
         case 'Friday';
-        $tree = 'Friday is Tulip day';
-        $pic = 'tulip.png';
-        $alt = "Tulip Tree";
-        $content = 'Indian Tulip is found in lower dry to wet forest. The height of Indian tulip tree is usually more than 40 feet. The flowers are cup shaped and the leaves are of heart shaped. This evergreen tree is very fast growing. Main branches of the tulip tree grow in straight along with thick bark. As the tree gets older it thins out, though it was bushy while it was young. Flowers, fruits and the young leaves are edible. Timber is used for making paper, paddles and also used to make gums and oils. Leaves are also used for swollen joints.<br><br>
-        <b>Source:</b><br>
-        <a href="https://stylesatlife.com/articles/types-of-trees/">Styles at life.com </a>';
+        $title = 'We Planting our Tree on Friday';
+        $pic = 'instruction.jpg';
+        $alt = "Plant Instruction";
+        $content = 'We need a shovel or garden fork, tree support & ties, hammer, and fencing if we have animal in the area. For container-grown trees, we to carefully removed it from the pot. Shake out as much of the growing media as possible and spread the roots out as much as possible.<br> 
+        <a href="images/instruction.jpg"> Click here for the instruction image</a>';
         $body = 'sandybrown';
             break;
         
         case 'Saturday';
-        $tree = 'Saturday is Turmeric day';
-        $pic = 'turmeric.png';
-        $alt = "Turmeric Plant";
+        $title = 'We Learn about Blueberries on Saturday';
+        $pic = 'blueberry.jpg';
+        $alt = "A Blueberry Plant";
         
-        $content = 'The other commonly used name, colloquially used, is Haldi. It is also called Indian saffron and is widely cultivated in India. The stem of the turmeric plant is very short which is of 60-90 cm. Flowers are of yellow-white and pink. It is highly antiseptic, thus, it is used for internal injuries, wound, pimples, etc. It acts as a remedy for cold and cough and also given in jaundice.<br><br>
-        <b>Source:</b><br>
-        <a href="https://stylesatlife.com/articles/types-of-trees/">Styles at life.com </a>';
+        $content = 'It takes blueberry three to four years to grow big enough to produce fruit. The number of months needed in a year for an established bush to produce berries depend on what type of bush you have planted. Climate also plays a role in the time it takes for the tree to produce berries. During the first one or two growing season, you should pull off any flowers to encourage your blueberry plant to concentrate on growth.';
         
         $body = 'chocolate';
             break;
         
         case 'Sunday';
-        $tree = 'Sunday is Maple day';
-        $pic = 'maple.jpg';
-        $alt = "Maple";
+        $title = 'It\'s Sunday, We\'re Waiting for our Blueberry Plant to Grow';
+        $pic = 'blueberry.jpg';
+        $alt = "Bluerry Branch";
         
-        $content = 'Maple is a common type of shrub. There are as many as 125 species of maple trees which are present in nature. The main types of maple trees are sugar maple, red maple, silver maple, Japanese maple, Norway maple and paperbark maple. The trees are deciduous trees which mean they lose their leaves in each fall but some are there that do not shed the leaves. Canadian flag depicts a maple leaf on it. It is used as an art of bonsai and is extensively used as an ornamental tree due to its different vibrant colours.<br><br>
-        <b>Source:</b><br>
-        <a href="https://stylesatlife.com/articles/types-of-trees/">Styles at life.com </a>';
+        $content = 'We are resting and watch this man harvesting wild blueberries.<br>
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Gd8fYewyiKk?start=13" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
         
         $body = 'mistyrose';
             break;       
-        
+   
 }
 
-//end daily.php test
+//end daily.php 
+
+// login
+if(!isset($_SESSION['userName'])) {
+    $_SESSION['msg'] = 'You must login first';
+    header('Location:login.php');
+}
+
+if(isset($_GET['logout'])) {
+    session_destroy();
+    unset($_SESSION['userName']);
+    header('Location:login.php');
+}
+// end login
 
 include('includes/header.php');
 ?>
-<main>
-    <?php
-    //Notification message
-    if(isset($_SESSION['success'])) :?>
-    <div class="success">
-        <h3>
-        <?php echo $_SESSION['success'] ;
-        unset($_SESSION['success']) ;
-        endif; ?>  
-        </h3>
-    </div>
+     
+<main id="our_main_style">
     <h1>Welcome my daily page!</h1>
-    <?php
-    if ($todayDate <= 11) {
-    echo 'Good Morning!<br>';
-    echo '<br>';
-    }
-
-    elseif($todayDate <= 15) {
-        echo 'Good Afternoon!<br>';    
-    }
-
-    else {
-        echo 'Good Evening<br>';
-    } 
-      
-    echo $tree;
-        
-    ?> 
+    <h2><?php echo $title ;?></h2>
     <p class="content_text"><?php echo $content; ?></p>
-</main>
-<aside>
-<h3>Daily content</h3> <br>
+    
+    <h3>Our Weekly Planting</h3> 
       <ul class="style-daily">
         <li> <a href="daily.php?today=Monday">Monday</a></li>
         <li> <a href="daily.php?today=Tuesday">TuesDay</a></li>
@@ -143,8 +119,15 @@ include('includes/header.php');
         <li> <a href="daily.php?today=Friday">Friday</a></li>
         <li> <a href="daily.php?today=Saturday">Saturday</a></li>
         <li> <a href="daily.php?today=Sunday">Sunday</a></li>
+    </ul>
+    
+</main>
+<aside>
+ <div class="aside_div_box">
+    <h3>Picture of the day</h3>   
+     <img id="smaller_image" src="images/<?php echo $pic ;?>" alt="<?php echo $alt ;?>">
+</div>   
 </aside>
 </div> <!-- wrapper -->
-
 <?php include('includes/footer.php');
 ?>

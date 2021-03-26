@@ -2,6 +2,19 @@
 
 session_start();
 include('config.php');
+
+if(!isset($_SESSION['userName'])) {
+    $_SESSION['msg'] = 'You must login first';
+    header('Location:login.php');
+}
+
+if(isset($_GET['logout'])) {
+    session_destroy();
+    unset($_SESSION['userName']);
+    header('Location:login.php');
+}
+
+
 include('includes/header.php');
 ?>
 
@@ -15,10 +28,9 @@ if(isset($_SESSION['success'])) :?>
     ?>  
 </h3>
  </div>
-    <?php endif; ?>
-    
-
-    <h1>Welcome to our homepage!</h1>
+    <?php endif; ?>  
+    <h1 id="main_h1">Welcome to our homepage!</h1>
+    <img  id="index_image" src="images/index_image.jpg"  alt="Pears Ochard" >
 
 </div> <!-- wrapper -->
 

@@ -16,24 +16,13 @@ if(isset($_GET['logout'])) {
 
 include('includes/header.php');
 ?>
-<main>
-    <?php
-    //Notification message
-    if(isset($_SESSION['success'])) :?>
-    <div class="success">
-        <h3>
-        <?php echo $_SESSION['success'] ;
-        unset($_SESSION['success']) ;
-        endif; ?>  
-        </h3>
-    </div> <!-- end success -->
+<main id="about_main_style">
     <h1>Welcome my about page!</h1>
     <h2>SQL Table of Registered Users </h2>
     <a href="images/users_table.png"><img  id="about_image" src="images/users_table.png"  alt="User Table" ></a>
+    <h2>My SQL Table for Fruits</h2>
+    <a href="images/fruits_table.png"><img  id="about_image" src="images/fruits_table.png"  alt="Fruits Table" ></a>
 </main>
-<aside>
-<h3> this is my aside</h3>
-</aside>
 </div> <!-- wrapper -->
 
 <?php include('includes/footer.php');
